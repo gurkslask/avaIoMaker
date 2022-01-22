@@ -1,6 +1,6 @@
 using Mono.Data.Sqlite;
 
-namespace ioMakerBlaze
+namespace IoMaker
 {
     public class databaseLogic
     {
