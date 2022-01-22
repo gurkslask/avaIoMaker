@@ -112,6 +112,5 @@ namespace IoMaker
         string access_string = String.Format(templates[stemplate].DO.access_string, Data.name);
         access_list.Add(access_string);
       }
-      public void initDB(){databaseLogic.CreateTable();}
     }
   }
