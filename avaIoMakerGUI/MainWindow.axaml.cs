@@ -1,6 +1,7 @@
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
+using System;
 
 namespace avaIoMakerGUI
 {
@@ -12,6 +13,7 @@ namespace avaIoMakerGUI
 #if DEBUG
             this.AttachDevTools();
 #endif
+            Console.WriteLine("Hello");
         }
 
         private void InitializeComponent()
