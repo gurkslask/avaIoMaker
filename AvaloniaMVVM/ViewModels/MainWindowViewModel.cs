@@ -11,12 +11,22 @@ namespace AvaloniaMVVM.ViewModels
     public class MainWindowViewModel : ViewModelBase
     {
         public Button RunButton;
-        public IoMaker.ioMakerLogicAB iom;
-        public string inString { get { return instring; } set { instring = value; } }
+        public IoMaker.ioMakerLogicAB iom = new IoMaker.ioMakerLogicAB();
         private string instring;
 
-        public string ioString => "iostring";
-        public string varString ;
+        private string varString = "Varstring";
+        public string VarString
+        {
+            get => varString;
+            set => this.RaiseAndSetIfChanged(ref varString, value);
+        }
+
+        private string ioString = "Iostringj";
+        public string IoString
+        {
+            get => ioString;
+            set => this.RaiseAndSetIfChanged(ref ioString, value);
+        }
         public string Greeting => "Welcome to Avalonia!";
 
         public MainWindowViewModel()
@@ -26,10 +36,15 @@ namespace AvaloniaMVVM.ViewModels
 
         public string InString
         {
-            get => inString;
+            get => instring;
             set => this.RaiseAndSetIfChanged(ref instring, value);
         }
-        void runTheThing() { iom.makeGeneral(inString); }
+        void runTheThing() {
+            iom.makeGeneral(InString);
+            VarString = String.Join("", iom.var_list);
+            IoString = String.Join("", iom.io_list);
+        }
+        // void runTheThing() { VarString = "KÖRT!!!"; }
         public ReactiveCommand<Unit, Unit> Run { get; }
     }
 }
