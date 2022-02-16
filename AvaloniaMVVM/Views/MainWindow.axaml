@@ -1,0 +1,39 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:AvaloniaMVVM.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="AvaloniaMVVM.Views.MainWindow"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="AvaloniaMVVM">
+
+    <Design.DataContext>
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+	<Grid ColumnDefinitions="100,200,200, 200" RowDefinitions="Auto, Auto, Auto, Auto" HorizontalAlignment="Left" VerticalAlignment="Top">
+  <!---
+  <Grid HorizontalAlignment="Left" VerticalAlignment="Top">
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="2*"></ColumnDefinition>
+      <ColumnDefinition Width="2*"></ColumnDefinition>
+      <ColumnDefinition Width="2*"></ColumnDefinition>
+      <ColumnDefinition Width="2*"></ColumnDefinition>
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="4*"></RowDefinition>
+      <RowDefinition Height="4*"></RowDefinition>
+      <RowDefinition Height="4*"></RowDefinition>
+      <RowDefinition Height="4*"></RowDefinition>
+    </Grid.RowDefinitions>
+    -->    
+    <TextBlock Grid.Column="2" Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    <TextBlock Grid.Column="0">IoMaker</TextBlock>
+    <TextBox Grid.Column="0" Name="intext" Grid.Row="1" Height="300" Text="{Binding InString}" Watermark="hej" ></TextBox>
+
+    <Button Grid.Column="0" Name="Run" Grid.Row="2" Command="{Binding Run }">Run</Button>
+    <TextBlock Grid.Column="2" Grid.Row="1" Text="{Binding IoString}" Height="100" ScrollViewer.VerticalScrollBarVisibility="Auto">Output 1</TextBlock>
+    <TextBlock Grid.Column="3" Grid.Row="1" Text="{Binding VarString}" Height="100" ScrollViewer.VerticalScrollBarVisibility="Auto">Output 2</TextBlock>
+  </Grid>
+
+</Window>

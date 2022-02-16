@@ -5,13 +5,26 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="avaIoMakerGUI.MainWindow"
         Title="avaIoMakerGUI">
-    <StackPanel Orientation="Vertical">
-        <TextBlock>Welcome to Avalonia!</TextBlock>
-        <TextBlock>Welcome to Avalonia!</TextBlock>
-        <TextBlock>Welcome to Avalonia!</TextBlock>
-        <TextBlock>Welcome to Avalonia!</TextBlock>
-        <TextBox Name="Textin"></TextBox>
-        <Button Name="Run">Run</Button>
-        <TextBlock Name="Textout" >Results</TextBlock>
-    </StackPanel>
+	<Grid ColumnDefinitions="100,1.5*,4*" RowDefinitions="Auto, Auto, Auto" HorizontalAlignment="Left" VerticalAlignment="Top">
+		<TextBlock Grid.Column="0">IoMaker</TextBlock>
+		<TextBox Grid.Column="0" Name="intext" Grid.Row="1" Height="10" Text="{Binding inString}" ></TextBox>
+		<Button Grid.Column="0" Name="Run" Grid.Row="2">Run</Button>
+		<TextBlock Grid.Column="1" Grid.Row="1" Height="100" Text="{Binding ioString}">Output 1</TextBlock>
+		<TextBlock Grid.Column="1" Grid.Row="9" Text="{Binding varString}">Output 2</TextBlock>
+	</Grid>
+	<!---jj<StackPanel HorizontalAlignment="Left" Orientation="Vertical">
+		<TextBlock>Hej1</TextBlock>
+		<TextBox Name="intext" Height="100"></TextBox>
+		<TextBlock Name="uttext" Width="100"> Resultatttttttttttttttttttttttttttt </TextBlock>
+	</StackPanel>
+	-->
+
+	<!--
+	<StackPanel HorizontalAlignment="Center" Orientation="Vertical">
+		<TextBlock>Hej2jj</TextBlock>
+	</StackPanel>
+    <StackPanel HorizontalAlignment="Right">
+		<TextBlock>Hej3</TextBlock>
+	</StackPanel>
+	-->
 </Window>
