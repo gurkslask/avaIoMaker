@@ -21,11 +21,23 @@ namespace AvaloniaMVVM.ViewModels
             set => this.RaiseAndSetIfChanged(ref varString, value);
         }
 
-        private string ioString = "Iostringj";
+        private string ioString = "Iostring";
         public string IoString
         {
             get => ioString;
             set => this.RaiseAndSetIfChanged(ref ioString, value);
+        }
+        private string accessString = "AccessString";
+        public string AccessString
+        {
+            get => accessString;
+            set => this.RaiseAndSetIfChanged(ref accessString, value);
+        }
+        private string invString = "InvString";
+        public string InvString
+        {
+            get => invString;
+            set => this.RaiseAndSetIfChanged(ref invString, value);
         }
         public string Greeting => "Welcome to Avalonia!";
 
@@ -43,6 +55,8 @@ namespace AvaloniaMVVM.ViewModels
             iom.makeGeneral(InString);
             VarString = String.Join("", iom.var_list);
             IoString = String.Join("", iom.io_list);
+            AccessString = String.Join("", iom.access_list);
+            InvString = String.Join("", iom.inv_list);
         }
         // void runTheThing() { VarString = "KÖRT!!!"; }
         public ReactiveCommand<Unit, Unit> Run { get; }
