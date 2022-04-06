@@ -12,29 +12,11 @@
         <vm:MainWindowViewModel/>
     </Design.DataContext>
 	<Grid ColumnDefinitions="100,200,200, 200" RowDefinitions="Auto, Auto, Auto, Auto" HorizontalAlignment="Left" VerticalAlignment="Top">
-  <!---
-  <Grid HorizontalAlignment="Left" VerticalAlignment="Top">
-    <Grid.ColumnDefinitions>
-      <ColumnDefinition Width="2*"></ColumnDefinition>
-      <ColumnDefinition Width="2*"></ColumnDefinition>
-      <ColumnDefinition Width="2*"></ColumnDefinition>
-      <ColumnDefinition Width="2*"></ColumnDefinition>
-    </Grid.ColumnDefinitions>
-    <Grid.RowDefinitions>
-      <RowDefinition Height="4*"></RowDefinition>
-      <RowDefinition Height="4*"></RowDefinition>
-      <RowDefinition Height="4*"></RowDefinition>
-      <RowDefinition Height="4*"></RowDefinition>
-    </Grid.RowDefinitions>
-    -->    
     <TextBlock Grid.Column="2" Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
     <TextBlock Grid.Column="0">IoMaker</TextBlock>
     <TextBox Grid.Column="0" Name="intext" Grid.Row="1" Height="300" Text="{Binding InString}" Watermark="hej" ></TextBox>
 
-    <TextBox Grid.Column="3" Grid.Row="1"
-    Text="{Binding InvString}"
-    Watermark="Inverters">
-    </TextBox>
+    <TextBox Grid.Column="3" Grid.Row="1" Text="{Binding InvString}" Watermark="Inverters"> </TextBox>
   </Grid>
 
 </Window>
