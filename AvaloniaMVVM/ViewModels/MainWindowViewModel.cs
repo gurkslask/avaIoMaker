@@ -58,7 +58,6 @@ namespace AvaloniaMVVM.ViewModels
             AccessString = String.Join("", iom.access_list);
             InvString = String.Join("", iom.inv_list);
         }
-        // void runTheThing() { VarString = "KÖRT!!!"; }
         public ReactiveCommand<Unit, Unit> Run { get; }
     }
 }
