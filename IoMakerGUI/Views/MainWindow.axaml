@@ -1,0 +1,29 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:IoMakerGUI.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="900" d:DesignHeight="450"
+        x:Class="IoMakerGUI.Views.MainWindow"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="IoMakerGUI">
+
+    <Design.DataContext>
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+
+	<Grid ColumnDefinitions="625,100" RowDefinitions="Auto, Auto">
+		<StackPanel Grid.Column="0" HorizontalAlignment="Right">
+			<TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+			<TextBox Width="600" Height="100" Watermark="Text goes here" Text="{Binding InString}"></TextBox>
+			<Button Width="200" HorizontalAlignment="Center" Command="{Binding Run}">Kör</Button>
+			<StackPanel>
+				<Button Command="{Binding cEnableInverter}" IsEnabled="True">Inverters</Button>
+				<Button Command="{Binding cEnableAccess}" IsEnabled="False">Variables</Button>
+			</StackPanel>
+		</StackPanel>
+		<StackPanel Grid.Column="1">
+			<TextBox Text="{Binding InvString}" Watermark="Inverters">hej</TextBox>
+		</StackPanel>
+	</Grid>
+</Window>

@@ -24,6 +24,7 @@ namespace IoMaker
 
     }
     public void makeGeneral(string Data) {
+        if (Data == null) return;
       string re_string = @"^(.*)\t(.*)\t(.*)\t(.*)\t(.*)\t(.*)\t(.*)";
       // Reset lists
       io_list = new List<string>();
