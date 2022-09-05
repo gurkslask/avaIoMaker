@@ -1,0 +1,6 @@
+{
+  "inv_string" : "this is inv",
+  "io_string" : "this is dynamic string here: {0} stops here io ",
+  "var_string" :  "this is var",
+  "access_string": "this is access"
+}

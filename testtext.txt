@@ -1,0 +1,397 @@
+DI524 		Digital inputs I0 - I31	%ID0	DWORD		
+DI524 		Digital inputs I0 - I15	%IW0	WORD		
+DI524 		Digital inputs I16 - I31	%IW1	WORD		
+DI524 		Digital inputs I0 - I7	%IB0	BYTE		
+DI524 	Natavbrott_SN11_EE01_IO	Digital input I0	%IX0.0	BOOL		1.0	Kommentar1
+DI524 	Overspanning_SN11_IO	Digital input I1	%IX0.1	BOOL		1.1
+DI524 	Kortsl_SN11_IO	Digital input I2	%IX0.2	BOOL		1.2
+DI524 	UtlSakr_SN11_IO	Digital input I3	%IX0.3	BOOL		1.3
+DI524 	UtlMSak_SN12_DS1_3_IO	Digital input I4	%IX0.4	BOOL		1.4
+DI524 	DInd_GC21_GL11_IO	Digital input I5	%IX0.5	BOOL		1.5
+DI524 	DKlar_GC21_GV11_IO	Digital input I6	%IX0.6	BOOL		1.6
+DI524 	IndO_GC21_GV11_IO	Digital input I7	%IX0.7	BOOL		1.7
+DI524 		Digital inputs I8 - I15	%IB1	BYTE		
+DI524 	IndS_GC21_GV11_IO	Digital input I8	%IX1.0	BOOL		2.0
+DI524 	LTryck_SN12_AB01_IO	Digital input I9	%IX1.1	BOOL		2.1
+DI524 	DInd_GC22_GL11_IO	Digital input I10	%IX1.2	BOOL		2.2	Kommentar
+DI524 	DKlar_GC22_GV11_IO	Digital input I11	%IX1.3	BOOL		2.3	Kommentar
+DI524 	IndO_GC22_GV11_IO	Digital input I12	%IX1.4	BOOL		2.4	Kommentar
+DI524 	IndS_GC22_GV11_IO	Digital input I13	%IX1.5	BOOL		2.5	Kommentar
+DI524 	DInd_GC23_GL11_IO	Digital input I14	%IX1.6	BOOL		2.6	Kommentar
+DI524 	DKlar_GC23_GV11_IO	Digital input I15	%IX1.7	BOOL		2.7	Kommentar
+DI524 		Digital inputs I16 - I23	%IB2	BYTE		
+DI524 	IndO_GC23_GV11_IO	Digital input I16	%IX2.0	BOOL		3.0
+DI524 	IndS_GC23_GV11_IO	Digital input I17	%IX2.1	BOOL		3.1
+DI524 	DKlar_GC27_GV11_IO	Digital input I18	%IX2.2	BOOL		3.2
+DI524 	IndO_GC27_GV11_IO	Digital input I19	%IX2.3	BOOL		3.3
+DI524 	IndS_GC27_GV11_IO	Digital input I20	%IX2.4	BOOL		3.4
+DI524 	DInd_PK21_IO	Digital input I21	%IX2.5	BOOL		3.5
+DI524 	DKlar_PK21_IO	Digital input I22	%IX2.6	BOOL		3.6
+DI524 	Larm_PK21_IO	Digital input I23	%IX2.7	BOOL		3.7
+DI524 		Digital inputs I24 - I31	%IB3	BYTE		
+DI524 	DInd_IP21_IO	Digital input I24	%IX3.0	BOOL		4.0
+DI524 	DKlar_IP21_IO	Digital input I25	%IX3.1	BOOL		4.1
+DI524 	Larm_IP21_IO	Digital input I26	%IX3.2	BOOL		4.2
+DI524 	DInd_IP23_IO	Digital input I27	%IX3.3	BOOL		4.3
+DI524 	DKlar_IP23_IO	Digital input I28	%IX3.4	BOOL		4.4
+DI524 	Larm_IP23_IO	Digital input I29	%IX3.5	BOOL		4.5
+DI524 	DInd_UP01_IO	Digital input I30	%IX3.6	BOOL		4.6
+DI524 	DKlar_UP01_IO	Digital input I31	%IX3.7	BOOL		4.7
+DI524 		Fast counter : Actual value 1	%ID1	DWORD		
+DI524 		Fast counter : Actual value 2	%ID2	DWORD		
+DI524 		Fast counter : State Byte 1	%IB12	BYTE		
+DI524 		Fast counter : State Byte 2	%IB13	BYTE		
+DI524 		Fast counter : Start value 1	%QD0	DWORD		
+DI524 		Fast counter : End value 1	%QD1	DWORD		
+DI524 		Fast counter : Start value 2	%QD2	DWORD		
+DI524 		Fast counter : End value 2	%QD3	DWORD		
+DI524 		Fast counter : Control Byte 1	%QB16	BYTE		
+DI524 		Fast counter : Control Byte 2	%QB17	BYTE		
+DI524_1 		Digital inputs I0 - I31	%ID4	DWORD		
+DI524_1 		Digital inputs I0 - I15	%IW8	WORD		
+DI524_1 		Digital inputs I16 - I31	%IW9	WORD		
+DI524_1 		Digital inputs I0 - I7	%IB16	BYTE		
+DI524_1 	Larm_UP01_IO	Digital input I0	%IX16.0	BOOL		1.0
+DI524_1 	UtlMSak_SN12_DS4_6_IO	Digital input I1	%IX16.1	BOOL		1.1
+DI524_1 	DInd_GC24_GL11_IO	Digital input I2	%IX16.2	BOOL		1.2
+DI524_1 	DKlar_GC24_GV11_IO	Digital input I3	%IX16.3	BOOL		1.3
+DI524_1 	IndO_GC24_GV11_IO	Digital input I4	%IX16.4	BOOL		1.4
+DI524_1 	IndS_GC24_GV11_IO	Digital input I5	%IX16.5	BOOL		1.5
+DI524_1 	UtlMSak_SN13_DS7_8_IO	Digital input I6	%IX16.6	BOOL		1.6
+DI524_1 	DInd_GC25_GL11_IO	Digital input I7	%IX16.7	BOOL		1.7
+DI524_1 		Digital inputs I8 - I15	%IB17	BYTE		
+DI524_1 	DKlar_GC25_GV11_IO	Digital input I8	%IX17.0	BOOL		2.0
+DI524_1 	IndO_GC25_GV11_IO	Digital input I9	%IX17.1	BOOL		2.1
+DI524_1 	IndS_GC25_GV11_IO	Digital input I10	%IX17.2	BOOL		2.2
+DI524_1 	LTryck_SN13_AB01_IO	Digital input I11	%IX17.3	BOOL		2.3
+DI524_1 	DInd_GC26_GL11_IO	Digital input I12	%IX17.4	BOOL		2.4
+DI524_1 	DKlar_GC26_GV11_IO	Digital input I13	%IX17.5	BOOL		2.5
+DI524_1 	IndO_GC26_GV11_IO	Digital input I14	%IX17.6	BOOL		2.6
+DI524_1 	IndS_GC26_GV11_IO	Digital input I15	%IX17.7	BOOL		2.7
+DI524_1 		Digital inputs I16 - I23	%IB18	BYTE		
+DI524_1 	LTryck_SN12_AB01_DS4_6_IO	Digital input I16	%IX18.0	BOOL		3.0
+DI524_1 	DInd_GC28_GL11_IO	Digital input I17	%IX18.1	BOOL		3.1
+DI524_1 	DKlar_GC28_GV11_IO	Digital input I18	%IX18.2	BOOL		3.2
+DI524_1 	IndO_GC28_GV11_IO	Digital input I19	%IX18.3	BOOL		3.3
+DI524_1 	IndS_GC28_GV11_IO	Digital input I20	%IX18.4	BOOL		3.4
+DI524_1 	DInd_PK22_IO	Digital input I21	%IX18.5	BOOL		3.5
+DI524_1 	DKlar_PK22_IO	Digital input I22	%IX18.6	BOOL		3.6
+DI524_1 	Larm_PK22_IO	Digital input I23	%IX18.7	BOOL		3.7
+DI524_1 		Digital inputs I24 - I31	%IB19	BYTE		
+DI524_1 	DInd_IP22_IO	Digital input I24	%IX19.0	BOOL		4.0
+DI524_1 	DKlar_IP22_IO	Digital input I25	%IX19.1	BOOL		4.1
+DI524_1 	Larm_IP22_IO	Digital input I26	%IX19.2	BOOL		4.2
+DI524_1 	DInd_IP24_IO	Digital input I27	%IX19.3	BOOL		4.3
+DI524_1 	DKlar_IP24_IO	Digital input I28	%IX19.4	BOOL		4.4
+DI524_1 	Larm_IP24_IO	Digital input I29	%IX19.5	BOOL		4.5
+DI524_1 	DInd_GC27_GL11_IO	Digital input I30	%IX19.6	BOOL		4.6
+DI524_1 	FP_IQ31_GF11_IO	Digital input I31	%IX19.7	BOOL		4.7
+DI524_1 		Fast counter : Actual value 1	%ID5	DWORD		
+DI524_1 		Fast counter : Actual value 2	%ID6	DWORD		
+DI524_1 		Fast counter : State Byte 1	%IB28	BYTE		
+DI524_1 		Fast counter : State Byte 2	%IB29	BYTE		
+DI524_1 		Fast counter : Start value 1	%QD5	DWORD		
+DI524_1 		Fast counter : End value 1	%QD6	DWORD		
+DI524_1 		Fast counter : Start value 2	%QD7	DWORD		
+DI524_1 		Fast counter : End value 2	%QD8	DWORD		
+DI524_1 		Fast counter : Control Byte 1	%QB36	BYTE		
+DI524_1 		Fast counter : Control Byte 2	%QB37	BYTE		
+DI524_2 		Digital inputs I0 - I31	%ID8	DWORD		
+DI524_2 		Digital inputs I0 - I15	%IW16	WORD		
+DI524_2 		Digital inputs I16 - I31	%IW17	WORD		
+DI524_2 		Digital inputs I0 - I7	%IB32	BYTE		
+DI524_2 	Trumsil_IC11_GL01_IO	Digital input I0	%IX32.0	BOOL		1.0
+DI524_2 	HN_UP11_GL01_IO	Digital input I1	%IX32.1	BOOL		1.1
+DI524_2 	SLarm_24V_SN11_IO	Digital input I2	%IX32.2	BOOL		1.2
+DI524_2 	SLarm_UPS_SN11_IO	Digital input I3	%IX32.3	BOOL		1.3
+DI524_2 	Oversp_EE11_IO	Digital input I4	%IX32.4	BOOL		1.4
+DI524_2 	DInd_IC11_EM01_IO	Digital input I5	%IX32.5	BOOL		1.5
+DI524_2 	DKlar_IC11_EM01_IO	Digital input I6	%IX32.6	BOOL		1.6
+DI524_2 	DInd_IO11_IO	Digital input I7	%IX32.7	BOOL		1.7
+DI524_2 		Digital inputs I8 - I15	%IB33	BYTE		
+DI524_2 	DKlar_IO11_IO	Digital input I8	%IX33.0	BOOL		2.0
+DI524_2 	Start_GC42_ES01_IO	Digital input I9	%IX33.1	BOOL		2.1
+DI524_2 	Start_GC44_ES01_IO	Digital input I10	%IX33.2	BOOL		2.2
+DI524_2 	UtlAsk_AB11_AP11_IO	Digital input I11	%IX33.3	BOOL		2.3
+DI524_2 	UtlAsk_AB11_AP12_IO	Digital input I12	%IX33.4	BOOL		2.4
+DI524_2 	UtlAsk_AB11_GL01_IO	Digital input I13	%IX33.5	BOOL		2.5
+DI524_2 	DKlar_GC41_GV12_IO	Digital input I14	%IX33.6	BOOL		2.6
+DI524_2 	DKlar_GC42_GV12_IO	Digital input I15	%IX33.7	BOOL		2.7
+DI524_2 		Digital inputs I16 - I23	%IB34	BYTE		
+DI524_2 	DKlar_GC43_GV12_IO	Digital input I16	%IX34.0	BOOL		3.0
+DI524_2 	DKlar_GC44_GV12_IO	Digital input I17	%IX34.1	BOOL		3.1
+DI524_2 	DKlar_UC31_GV11_IO	Digital input I18	%IX34.2	BOOL		3.2
+DI524_2 	IndO_UC31_GV11_IO	Digital input I19	%IX34.3	BOOL		3.3
+DI524_2 	IndS_UC31_GV11_IO	Digital input I20	%IX34.4	BOOL		3.4
+DI524_2 	FP_UQ11_GF11_IO	Digital input I21	%IX34.5	BOOL		3.5
+DI524_2 	FP_UQ31_GF11_IO	Digital input I22	%IX34.6	BOOL		3.6
+DI524_2 	FP_UQ41_GF11_IO	Digital input I23	%IX34.7	BOOL		3.7
+DI524_2 		Digital inputs I24 - I31	%IB35	BYTE		
+DI524_2 	FP_IQ11_GF01_IO	Digital input I24	%IX35.0	BOOL		4.0
+DI524_2 	DInd_UP11_IO	Digital input I25	%IX35.1	BOOL		4.1
+DI524_2 	DKlar_UP11_IO	Digital input I26	%IX35.2	BOOL		4.2
+DI524_2 	Start_GC41_ES01_IO	Digital input I27	%IX35.3	BOOL		4.3
+DI524_2 	DKlar_GC41_GV13_IO	Digital input I28	%IX35.4	BOOL		4.4
+DI524_2 	IndO_GC41_GV13_IO	Digital input I29	%IX35.5	BOOL		4.5
+DI524_2 	IndS_GC41_GV13_IO	Digital input I30	%IX35.6	BOOL		4.6
+DI524_2 	DKlar_GC41_GV15_IO	Digital input I31	%IX35.7	BOOL		4.7
+DI524_2 		Fast counter : Actual value 1	%ID9	DWORD		
+DI524_2 		Fast counter : Actual value 2	%ID10	DWORD		
+DI524_2 		Fast counter : State Byte 1	%IB44	BYTE		
+DI524_2 		Fast counter : State Byte 2	%IB45	BYTE		
+DI524_2 		Fast counter : Start value 1	%QD10	DWORD		
+DI524_2 		Fast counter : End value 1	%QD11	DWORD		
+DI524_2 		Fast counter : Start value 2	%QD12	DWORD		
+DI524_2 		Fast counter : End value 2	%QD13	DWORD		
+DI524_2 		Fast counter : Control Byte 1	%QB56	BYTE		
+DI524_2 		Fast counter : Control Byte 2	%QB57	BYTE		
+DI524_3 		Digital inputs I0 - I31	%ID12	DWORD		
+DI524_3 		Digital inputs I0 - I15	%IW24	WORD		
+DI524_3 		Digital inputs I16 - I31	%IW25	WORD		
+DI524_3 		Digital inputs I0 - I7	%IB48	BYTE		
+DI524_3 	IndO_GC41_GV15_IO	Digital input I0	%IX48.0	BOOL		1.0
+DI524_3 	IndS_GC41_GV15_IO	Digital input I1	%IX48.1	BOOL		1.1
+DI524_3 	DInd_PK11_IO	Digital input I2	%IX48.2	BOOL		1.2
+DI524_3 	DInd_PK12_IO	Digital input I3	%IX48.3	BOOL		1.3
+DI524_3 	Larm_PK11_12_IO	Digital input I4	%IX48.4	BOOL		1.4
+DI524_3 	DKlar_GC42_GV13_IO	Digital input I5	%IX48.5	BOOL		1.5
+DI524_3 	IndO_GC42_GV13_IO	Digital input I6	%IX48.6	BOOL		1.6
+DI524_3 	IndS_GC42_GV13_IO	Digital input I7	%IX48.7	BOOL		1.7
+DI524_3 		Digital inputs I8 - I15	%IB49	BYTE		
+DI524_3 	DKlar_GC42_GV15_IO	Digital input I8	%IX49.0	BOOL		2.0
+DI524_3 	IndO_GC42_GV15_IO	Digital input I9	%IX49.1	BOOL		2.1
+DI524_3 	IndS_GC42_GV15_IO	Digital input I10	%IX49.2	BOOL		2.2
+DI524_3 	DInd_UO11_IO	Digital input I11	%IX49.3	BOOL		2.3
+DI524_3 	DKlar_UO11_IO	Digital input I12	%IX49.4	BOOL		2.4
+DI524_3 	DInd_UO21_IO	Digital input I13	%IX49.5	BOOL		2.5
+DI524_3 	DKlar_UO21_IO	Digital input I14	%IX49.6	BOOL		2.6
+DI524_3 	DInd_UO22_IO	Digital input I15	%IX49.7	BOOL		2.7
+DI524_3 		Digital inputs I16 - I23	%IB50	BYTE		
+DI524_3 	DKlar_UO22_IO	Digital input I16	%IX50.0	BOOL		3.0
+DI524_3 	DInd_UC11_UP11_IO	Digital input I17	%IX50.1	BOOL		3.1
+DI524_3 	DKlar_UC11_UP11_IO	Digital input I18	%IX50.2	BOOL		3.2
+DI524_3 	Larm_UC11_UP11_IO	Digital input I19	%IX50.3	BOOL		3.3
+DI524_3 	BR_AB11_GL02_IO	Digital input I20	%IX50.4	BOOL		3.4
+DI524_3 	DInd_AB11_AP11_IO	Digital input I21	%IX50.5	BOOL		3.5
+DI524_3 	DKlar_AB11_AP11_IO	Digital input I22	%IX50.6	BOOL		3.6
+DI524_3 	Msk_AB11_AP11_IO	Digital input I23	%IX50.7	BOOL		3.7
+DI524_3 		Digital inputs I24 - I31	%IB51	BYTE		
+DI524_3 	MjSt_AB11_AP11_IO	Digital input I24	%IX51.0	BOOL		4.0
+DI524_3 	DInd_UP12_IO	Digital input I25	%IX51.1	BOOL		4.1
+DI524_3 	DKlar_UP12_IO	Digital input I26	%IX51.2	BOOL		4.2
+DI524_3 	Start_GC43_ES01_IO	Digital input I27	%IX51.3	BOOL		4.3
+DI524_3 	DKlar_GC43_GV13_IO	Digital input I28	%IX51.4	BOOL		4.4
+DI524_3 	IndO_GC43_GV13_IO	Digital input I29	%IX51.5	BOOL		4.5
+DI524_3 	IndS_GC43_GV13_IO	Digital input I30	%IX51.6	BOOL		4.6
+DI524_3 	DKlar_GC43_GV15_IO	Digital input I31	%IX51.7	BOOL		4.7
+DI524_3 		Fast counter : Actual value 1	%ID13	DWORD		
+DI524_3 		Fast counter : Actual value 2	%ID14	DWORD		
+DI524_3 		Fast counter : State Byte 1	%IB60	BYTE		
+DI524_3 		Fast counter : State Byte 2	%IB61	BYTE		
+DI524_3 		Fast counter : Start value 1	%QD15	DWORD		
+DI524_3 		Fast counter : End value 1	%QD16	DWORD		
+DI524_3 		Fast counter : Start value 2	%QD17	DWORD		
+DI524_3 		Fast counter : End value 2	%QD18	DWORD		
+DI524_3 		Fast counter : Control Byte 1	%QB76	BYTE		
+DI524_3 		Fast counter : Control Byte 2	%QB77	BYTE		
+DI524_4 		Digital inputs I0 - I31	%ID16	DWORD		
+DI524_4 		Digital inputs I0 - I15	%IW32	WORD		
+DI524_4 		Digital inputs I16 - I31	%IW33	WORD		
+DI524_4 		Digital inputs I0 - I7	%IB64	BYTE		
+DI524_4 	IndO_GC43_GV15_IO	Digital input I0	%IX64.0	BOOL		1.0
+DI524_4 	IndS_GC43_GV15_IO	Digital input I1	%IX64.1	BOOL		1.1
+DI524_4 	TV_UC31_AP11_IO	Digital input I2	%IX64.2	BOOL		1.2
+DI524_4 	DInd_UC31_AP11_IO	Digital input I3	%IX64.3	BOOL		1.3
+DI524_4 	DKlar_UC31_AP11_IO	Digital input I4	%IX64.4	BOOL		1.4
+DI524_4 	DKlar_GC44_GV13_IO	Digital input I5	%IX64.5	BOOL		1.5
+DI524_4 	IndO_GC44_GV13_IO	Digital input I6	%IX64.6	BOOL		1.6
+DI524_4 	IndS_GC44_GV13_IO	Digital input I7	%IX64.7	BOOL		1.7
+DI524_4 		Digital inputs I8 - I15	%IB65	BYTE		
+DI524_4 	DKlar_GC44_GV15_IO	Digital input I8	%IX65.0	BOOL		2.0
+DI524_4 	IndO_GC44_GV15_IO	Digital input I9	%IX65.1	BOOL		2.1
+DI524_4 	IndS_GC44_GV15_IO	Digital input I10	%IX65.2	BOOL		2.2
+DI524_4 	DKlar_GC51_IO	Digital input I11	%IX65.3	BOOL		2.3
+DI524_4 	Larm_GC51_IO	Digital input I12	%IX65.4	BOOL		2.4
+DI524_4 	LampF_GC51_IO	Digital input I13	%IX65.5	BOOL		2.5
+DI524_4 	DInd_GO11_IO	Digital input I14	%IX65.6	BOOL		2.6
+DI524_4 	DKlar_GO11_IO	Digital input I15	%IX65.7	BOOL		2.7
+DI524_4 		Digital inputs I16 - I23	%IB66	BYTE		
+DI524_4 	DInd_GP23_IO	Digital input I16	%IX66.0	BOOL		3.0
+DI524_4 	DKlar_GP23_IO	Digital input I17	%IX66.1	BOOL		3.1
+DI524_4 	DInd_UC11_UP12_IO	Digital input I18	%IX66.2	BOOL		3.2
+DI524_4 	DKlar_UC11_UP12_IO	Digital input I19	%IX66.3	BOOL		3.3
+DI524_4 	Larm_UC11_UP12_IO	Digital input I20	%IX66.4	BOOL		3.4
+DI524_4 	DInd_AB11_AP12_IO	Digital input I21	%IX66.5	BOOL		3.5
+DI524_4 	DKlar_AB11_AP12_IO	Digital input I22	%IX66.6	BOOL		3.6
+DI524_4 	Msk_AB11_AP12_IO	Digital input I23	%IX66.7	BOOL		3.7
+DI524_4 		Digital inputs I24 - I31	%IB67	BYTE		
+DI524_4 	MjSt_AB11_AP12_IO	Digital input I24	%IX67.0	BOOL		4.0
+DI524_4 		Digital input I25	%IX67.1	BOOL		4.1
+DI524_4 		Digital input I26	%IX67.2	BOOL		4.2
+DI524_4 		Digital input I27	%IX67.3	BOOL		4.3
+DI524_4 		Digital input I28	%IX67.4	BOOL		4.4
+DI524_4 		Digital input I29	%IX67.5	BOOL		4.5
+DI524_4 		Digital input I30	%IX67.6	BOOL		4.6
+DI524_4 		Digital input I31	%IX67.7	BOOL		4.7
+DI524_4 		Fast counter : Actual value 1	%ID17	DWORD		
+DI524_4 		Fast counter : Actual value 2	%ID18	DWORD		
+DI524_4 		Fast counter : State Byte 1	%IB76	BYTE		
+DI524_4 		Fast counter : State Byte 2	%IB77	BYTE		
+DI524_4 		Fast counter : Start value 1	%QD20	DWORD		
+DI524_4 		Fast counter : End value 1	%QD21	DWORD		
+DI524_4 		Fast counter : Start value 2	%QD22	DWORD		
+DI524_4 		Fast counter : End value 2	%QD23	DWORD		
+DI524_4 		Fast counter : Control Byte 1	%QB96	BYTE		
+DI524_4 		Fast counter : Control Byte 2	%QB97	BYTE		
+DO524 		Digital outputs O0 - O7	%QB98	BYTE		
+DO524 	Out_Summalarm_IO	Digital output O0	%QX98.0	BOOL		1.0
+DO524 	Out_UP11_IO	Digital output O1	%QX98.1	BOOL		1.1
+DO524 	Out_GC21_GV11_IO	Digital output O2	%QX98.2	BOOL		1.2
+DO524 	Out_UC31_AP11_IO	Digital output O3	%QX98.3	BOOL		1.3
+DO524 	Out_GC22_GV11_IO	Digital output O4	%QX98.4	BOOL		1.4
+DO524 	Out_UC31_GV11_IO	Digital output O5	%QX98.5	BOOL		1.5
+DO524 	Out_GC23_GV11_IO	Digital output O6	%QX98.6	BOOL		1.6
+DO524 	Out_GC27_GV11_IO	Digital output O7	%QX98.7	BOOL		1.7
+DO524 		Digital outputs O8 - O15	%QB99	BYTE		
+DO524 	Out_PK21_IO	Digital output O8	%QX99.0	BOOL		2.0
+DO524 	OutD_PK21_IO	Digital output O9	%QX99.1	BOOL		2.1
+DO524 	Out_IP21_IO	Digital output O10	%QX99.2	BOOL		2.2
+DO524 	OutD_IP21_IO	Digital output O11	%QX99.3	BOOL		2.3
+DO524 	Out_IP23_IO	Digital output O12	%QX99.4	BOOL		2.4
+DO524 	OutD_IP23_IO	Digital output O13	%QX99.5	BOOL		2.5
+DO524 	Out_Till_PK11_12_IO	Digital output O14	%QX99.6	BOOL		2.6
+DO524 	Out_UP12_IO	Digital output O15	%QX99.7	BOOL		2.7
+DO524 		Digital outputs O16 - O23	%QB100	BYTE		
+DO524 	Out_GC24_GV11_IO	Digital output O16	%QX100.0	BOOL		3.0
+DO524 	Out_GC25_GV11_IO	Digital output O17	%QX100.1	BOOL		3.1
+DO524 	Out_GC26_GV11_IO	Digital output O18	%QX100.2	BOOL		3.2
+DO524 	Out_GC28_GV11_IO	Digital output O19	%QX100.3	BOOL		3.3
+DO524 	Out_PK22_IO	Digital output O20	%QX100.4	BOOL		3.4
+DO524 	OutD_PK22_IO	Digital output O21	%QX100.5	BOOL		3.5
+DO524 	Out_IP22_IO	Digital output O22	%QX100.6	BOOL		3.6
+DO524 	OutD_IP22_IO	Digital output O23	%QX100.7	BOOL		3.7
+DO524 		Digital outputs O24 - O31	%QB101	BYTE		
+DO524 	Out_IP24_IO	Digital output O24	%QX101.0	BOOL		4.0
+DO524 	OutD_IP24_IO	Digital output O25	%QX101.1	BOOL		4.1
+DO524 	Out_OK_GC41_GV12_IO	Digital output O26	%QX101.2	BOOL		4.2
+DO524 	Out_OK_GC43_GV12_IO	Digital output O27	%QX101.3	BOOL		4.3
+DO524 	Out_GC41_GV13_IO	Digital output O28	%QX101.4	BOOL		4.4
+DO524 	Out_GC41_GV15_IO	Digital output O29	%QX101.5	BOOL		4.5
+DO524 	Out_OK_GC44_GV12_IO	Digital output O30	%QX101.6	BOOL		4.6
+DO524 	Out_OK_GC42_GV12_IO	Digital output O31	%QX101.7	BOOL		4.7
+DO524_1 		Digital outputs O0 - O7	%QB102	BYTE		
+DO524_1 	Out_GC42_GV13_IO	Digital output O0	%QX102.0	BOOL		1.0
+DO524_1 	Out_GC42_GV15_IO	Digital output O1	%QX102.1	BOOL		1.1
+DO524_1 	Out_UO11_IO	Digital output O2	%QX102.2	BOOL		1.2
+DO524_1 	Out_UO21_IO	Digital output O3	%QX102.3	BOOL		1.3
+DO524_1 	Out_UO22_IO	Digital output O4	%QX102.4	BOOL		1.4
+DO524_1 	Out_AB11_AP11_IO	Digital output O5	%QX102.5	BOOL		1.5
+DO524_1 	Out_UC11_UP11_IO	Digital output O6	%QX102.6	BOOL		1.6
+DO524_1 	OutF_UC11_UP11_IO	Digital output O7	%QX102.7	BOOL		1.7
+DO524_1 		Digital outputs O8 - O15	%QB103	BYTE		
+DO524_1 	Out_GO11_IO	Digital output O8	%QX103.0	BOOL		2.0
+DO524_1 	Out_GP23_IO	Digital output O9	%QX103.1	BOOL		2.1
+DO524_1 	Out_GC43_GV13_IO	Digital output O10	%QX103.2	BOOL		2.2
+DO524_1 	Out_GC43_GV15_IO	Digital output O11	%QX103.3	BOOL		2.3
+DO524_1 	Out_GC44_GV13_IO	Digital output O12	%QX103.4	BOOL		2.4
+DO524_1 	Out_GC44_GV15_IO	Digital output O13	%QX103.5	BOOL		2.5
+DO524_1 	Out_AB11_AP12_IO	Digital output O14	%QX103.6	BOOL		2.6
+DO524_1 	Out_GC51_IO	Digital output O15	%QX103.7	BOOL		2.7
+DO524_1 		Digital outputs O16 - O23	%QB104	BYTE		
+DO524_1 	OutD_GC51_IO	Digital output O16	%QX104.0	BOOL		3.0
+DO524_1 	OutL_GC51_IO	Digital output O17	%QX104.1	BOOL		3.1
+DO524_1 	Out_UC11_UP12_IO	Digital output O18	%QX104.2	BOOL		3.2
+DO524_1 	OutF_UC11_UP12_IO	Digital output O19	%QX104.3	BOOL		3.3
+DO524_1 	Out_UP01_IO	Digital output O20	%QX104.4	BOOL		3.4
+DO524_1 	OutF_UP01_IO	Digital output O21	%QX104.5	BOOL		3.5
+DO524_1 	Out_IC11_EM11_IO	Digital output O22	%QX104.6	BOOL		3.6
+DO524_1 	Out_IO11_IO	Digital output O23	%QX104.7	BOOL		3.7
+DO524_1 		Digital outputs O24 - O31	%QB105	BYTE		
+DO524_1 		Digital output O24	%QX105.0	BOOL		4.0
+DO524_1 		Digital output O25	%QX105.1	BOOL		4.1
+DO524_1 		Digital output O26	%QX105.2	BOOL		4.2
+DO524_1 		Digital output O27	%QX105.3	BOOL		4.3
+DO524_1 		Digital output O28	%QX105.4	BOOL		4.4
+DO524_1 		Digital output O29	%QX105.5	BOOL		4.5
+DO524_1 		Digital output O30	%QX105.6	BOOL		4.6
+DO524_1 		Digital output O31	%QX105.7	BOOL		4.7
+AI523 	Niva_GC41_GL11_IO	Analog input I0+	%IW39	INT		2.0
+AI523 		Digital input I0+	%IX79.0	BOOL		2.0
+AI523 	Niva_GC42_GL11_IO	Analog input I1+	%IW40	INT		2.1
+AI523 		Digital input I1+	%IX81.0	BOOL		2.1
+AI523 	Strom_UP01_IO	Analog input I2+	%IW41	INT		2.2
+AI523 		Digital input I2+	%IX83.0	BOOL		2.2
+AI523 	Flode_UQ11_GF11_IO	Analog input I3+	%IW42	INT		2.3
+AI523 		Digital input I3+	%IX85.0	BOOL		2.3
+AI523 	Niva_UC11_GL11_IO	Analog input I4+	%IW43	INT		2.4
+AI523 		Digital input I4+	%IX87.0	BOOL		2.4
+AI523 	Strom_AB11_AP11_IO	Analog input I5+	%IW44	INT		2.5
+AI523 		Digital input I5+	%IX89.0	BOOL		2.5
+AI523 	Strom_UC11_UP11_IO	Analog input I6+	%IW45	INT		2.6
+AI523 		Digital input I6+	%IX91.0	BOOL		2.6
+AI523 	Strom_PK21_IO	Analog input I7+	%IW46	INT		2.7
+AI523 		Digital input I7+	%IX93.0	BOOL		2.7
+AI523 	Temp_IQ01_GT01_IO	Analog input I8+	%IW47	INT		4.0
+AI523 		Digital input I8+	%IX95.0	BOOL		4.0
+AI523 	pH_IQ01_GQ01_IO	Analog input I9+	%IW48	INT		4.1
+AI523 		Digital input I9+	%IX97.0	BOOL		4.1
+AI523 	Flode_IQ01_GF01_IO	Analog input I10+	%IW49	INT		4.2
+AI523 		Digital input I10+	%IX99.0	BOOL		4.2
+AI523 	Flode_UQ31_GF11_IO	Analog input I11+	%IW50	INT		4.3
+AI523 		Digital input I11+	%IX101.0	BOOL		4.3
+AI523 	Niva_GC43_GL11_IO	Analog input I12+	%IW51	INT		4.4
+AI523 		Digital input I12+	%IX103.0	BOOL		4.4
+AI523 	Niva_GC44_GL11_IO	Analog input I13+	%IW52	INT		4.5
+AI523 		Digital input I13+	%IX105.0	BOOL		4.5
+AI523 	Flode_UQ41_GF11_IO	Analog input I14+	%IW53	INT		4.6
+AI523 		Digital input I14+	%IX107.0	BOOL		4.6
+AI523 	Niva_AB11_GL01_IO	Analog input I15+	%IW54	INT		4.7
+AI523 		Digital input I15+	%IX109.0	BOOL		4.7
+AI523_1 	Uv_GC51_IO	Analog input I0+	%IW55	INT		2.0
+AI523_1 		Digital input I0+	%IX111.0	BOOL		2.0
+AI523_1 	Strom_AB11_AP12_IO	Analog input I1+	%IW56	INT		2.1
+AI523_1 		Digital input I1+	%IX113.0	BOOL		2.1
+AI523_1 	Strom_UC11_UP12_IO	Analog input I2+	%IW57	INT		2.2
+AI523_1 		Digital input I2+	%IX115.0	BOOL		2.2
+AI523_1 	Strom_PK22_IO	Analog input I3+	%IW58	INT		2.3
+AI523_1 		Digital input I3+	%IX117.0	BOOL		2.3
+AI523_1 	pH_IQ21_GQ11_IO	Analog input I4+	%IW59	INT		2.4
+AI523_1 		Digital input I4+	%IX119.0	BOOL		2.4
+AI523_1 	pH_IQ21_GQ12_IO	Analog input I5+	%IW60	INT		2.5
+AI523_1 		Digital input I5+	%IX121.0	BOOL		2.5
+AI523_1 	Niva_IC31_GL11_IO	Analog input I6+	%IW61	INT		2.6
+AI523_1 		Digital input I6+	%IX123.0	BOOL		2.6
+AI523_1 	Flode_IQ31_GF11_IO	Analog input I7+	%IW62	INT		2.7
+AI523_1 		Digital input I7+	%IX125.0	BOOL		2.7
+AI523_1 	Strom_IP21_IO	Analog input I8+	%IW63	INT		4.0
+AI523_1 		Digital input I8+	%IX127.0	BOOL		4.0
+AI523_1 	Strom_IP22_IO	Analog input I9+	%IW64	INT		4.1
+AI523_1 		Digital input I9+	%IX129.0	BOOL		4.1
+AI523_1 	Strom_IP23_IO	Analog input I10+	%IW65	INT		4.2
+AI523_1 		Digital input I10+	%IX131.0	BOOL		4.2
+AI523_1 	Strom_IP24_IO	Analog input I11+	%IW66	INT		4.3
+AI523_1 		Digital input I11+	%IX133.0	BOOL		4.3
+AI523_1 	Turb_GQ15_GQ12_IO	Analog input I12+	%IW67	INT		4.4
+AI523_1 		Digital input I12+	%IX135.0	BOOL		4.4
+AI523_1 	Tryck_PK11_GP01_IO	Analog input I13+	%IW68	INT		4.5
+AI523_1 		Digital input I13+	%IX137.0	BOOL		4.5
+AI523_1 	Kloro_GB01_GQ02_IO	Analog input I14+	%IW69	INT		4.6
+AI523_1 		Digital input I14+	%IX139.0	BOOL		4.6
+AI523_1 		Analog input I15+	%IW70	INT		4.7
+AI523_1 		Digital input I15+	%IX141.0	BOOL		4.7
+AO523 	GC41_GV12_AOUT_IO	Analog output O0+	%QW53	INT		2.0
+AO523 	GC42_GV12_AOUT_IO	Analog output O1+	%QW54	INT		2.1
+AO523 	UP01_AOUT_IO	Analog output O2+	%QW55	INT		2.2
+AO523 	UC11_UP11_AOUT_IO	Analog output O3+	%QW56	INT		2.3
+AO523 		Analog output O4+	%QW57	INT		2.4
+AO523 		Analog output O5+	%QW58	INT		2.5
+AO523 		Analog output O6+	%QW59	INT		2.6
+AO523 		Analog output O7+	%QW60	INT		2.7
+AO523 	GC43_GV12_AOUT_IO	Analog output O8+	%QW61	INT		4.0
+AO523 	GC44_GV12_AOUT_IO	Analog output O9+	%QW62	INT		4.1
+AO523 	UC11_UP12_AOUT_IO	Analog output O10+	%QW63	INT		4.2
+AO523 	PK22_AOUT_IO	Analog output O11+	%QW64	INT		4.3
+AO523 		Analog output O12+	%QW65	INT		4.4
+AO523 		Analog output O13+	%QW66	INT		4.5
+AO523 		Analog output O14+	%QW67	INT		4.6
+AO523 		Analog output O15+	%QW68	INT		4.7

@@ -57,13 +57,13 @@ namespace IoMaker
 
                     tt.DI.io_string = @"
                     (*{1}*)
-                    {0} := DI({0}_IO, {0}_INV, FALSE);\r\n";
+                    {0} := DI({0}_IO, {0}_INV, FALSE);";
                     tt.DI.inv_string = "{0}_INV : BOOL;\r\n";
                     tt.DI.access_string = "{0} : BOOL;\r\n";
 
                     tt.DO.io_string = @"
                     (*{1}*)
-                    {0}_IO := {0};\r\n";
+                    {0}_IO := {0};";
                     tt.DO.access_string = "{0} : BOOL;\r\n";
 
                     tt.AO.io_string = @"
@@ -76,7 +76,7 @@ namespace IoMaker
                         Skala_Max := {0}_Max,
                         Decimaler := 2,
                         IO =>{0}_IO ,
-                        uUT=>{0}_VVAR ); \r\n
+                        uUT=>{0}_VVAR ); 
                     ";
                     tt.AO.inv_string = @"
                     fb{0} : AO_Skal;
@@ -109,7 +109,7 @@ namespace IoMaker
                         uUT=>{0}_VVAR ,
                         HL=>{0}_LHOG ,
                         LL=>{0}_LLAG ,
-                        FEL=>{0}_LSIG ); \r\n
+                        FEL=>{0}_LSIG ); 
                     ";
                     tt.AI.inv_string = @"
                     fb{0} : AI_REAL;

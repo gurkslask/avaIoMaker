@@ -36,6 +36,10 @@ namespace IoMaker
 
         string[] SplitRes = row.Split('\t');
         acVariable vv = new acVariable();
+
+        // If the split doesnt has enough fields, skip the row
+        if (SplitRes.Length < 3) { continue; }
+
         vv.iocard = SplitRes[0].Trim();
         vv.name = SplitRes[1].Trim();
         vv.iodescription = SplitRes[2].Trim();

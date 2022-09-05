@@ -44,6 +44,16 @@ namespace AvaloniaMVVM.ViewModels
         public MainWindowViewModel()
         {
             Run = ReactiveCommand.Create(runTheThing);
+            IoStringOut = ReactiveCommand.Create(runIoStringOut);
+            AccessOut = ReactiveCommand.Create(runAccessOut);
+            InvOut = ReactiveCommand.Create(runInvOut);
+            VarOut = ReactiveCommand.Create(runVarOut);
+        }
+        private string outstring;
+        public string OutString
+        {
+            get => outstring;
+            set => this.RaiseAndSetIfChanged(ref outstring, value);
         }
 
         public string InString
@@ -59,7 +69,14 @@ namespace AvaloniaMVVM.ViewModels
             AccessString = String.Join("", iom.access_list);
             InvString = String.Join("", iom.inv_list);
         }
-        // void runTheThing() { VarString = "K?RT!!!"; }
+        void runIoStringOut() { OutString = IoString;}
+        void runAccessOut() { OutString = AccessString;}
+        void runInvOut() { OutString = VarString;}
+        void runVarOut() { OutString = InvString;}
         public ReactiveCommand<Unit, Unit> Run { get; }
+        public ReactiveCommand<Unit, Unit> IoStringOut { get; }
+        public ReactiveCommand<Unit, Unit> AccessOut { get; }
+        public ReactiveCommand<Unit, Unit> VarOut { get; }
+        public ReactiveCommand<Unit, Unit> InvOut { get; }
     }
 }
