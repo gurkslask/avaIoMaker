@@ -1,0 +1,8 @@
+<xml version="1.0" encoding="utf-8">
+        <rot>
+                <io_string>
+                            (*{1}*)
+                            {0} := DI({0}_IO, {0}_INV, FALSE);\r\n";
+                </io_string>
+        </rot>
+</xml>

@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Xml;
 namespace IoMaker
 {
         public class Templates
@@ -40,6 +41,14 @@ namespace IoMaker
                     public tDO DO;
                 }
                 public Dictionary<string, ioType> temps = new Dictionary<string, ioType>();
+                public static Dictionary<string, ioType> loadTemplate(string name){
+                    Dictionary<string, ioType> tdict = new Dictionary<string, ioType>();
+                    string path = "./template.XML";
+                    XmlReader xr = XmlReader.Create(path);
+                    xr.MoveToFirstAttribute();
+                    Console.WriteLine($"{ xr.GetAttribute("io_string")}");
+                    return tdict;
+                }
 
                 public static Dictionary<string, ioType> initDefaultTemplate(){
                     // Not finished !

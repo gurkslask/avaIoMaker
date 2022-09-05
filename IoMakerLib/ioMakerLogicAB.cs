@@ -24,8 +24,7 @@ namespace IoMaker
 
     }
     public void makeGeneral(string Data) {
-        if (Data == null) return;
-      string re_string = @"^(.*)\t(.*)\t(.*)\t(.*)\t(.*)\t(.*)\t(.*)";
+      string re_string = @"^(.*)\t(.*)\t(.*)\t(.*)\t(.*)\t(.*)\t(.*)\t(.*)";
       // Reset lists
       io_list = new List<string>();
       inv_list = new List<string>();
@@ -35,6 +34,23 @@ namespace IoMaker
       foreach (string row in Data.Split("\n"))
       {
 
+        string[] SplitRes = row.Split('\t');
+        acVariable vv = new acVariable();
+        vv.iocard = SplitRes[0].Trim();
+        vv.name = SplitRes[1].Trim();
+        vv.iodescription = SplitRes[2].Trim();
+        vv.adress = SplitRes[3].Trim();
+        vv.type = SplitRes[4].Trim();
+        int ii = 0;
+        foreach (var item in SplitRes)
+        { if (vv.type == "BOOL"){
+            Console.WriteLine($"{ii}: {item}");}
+          ii++; }
+        if (SplitRes.Length >= 8){
+          vv.comment = SplitRes[7].Trim();
+        }
+
+        /*
         Match res = Regex.Match(row, re_string);
         acVariable vv = new acVariable();
         vv.iocard = res.Groups[1].Value.Trim();
@@ -42,26 +58,32 @@ namespace IoMaker
         vv.iodescription = res.Groups[3].Value.Trim();
         vv.adress = res.Groups[4].Value.Trim();
         vv.type = res.Groups[5].Value.Trim();
-        vv.comment = res.Groups[6].Value.Trim();
+        vv.comment = res.Groups[8].Value.Trim();
+        */
 
-        System.Console.WriteLine(vv);
 
 
-        if (vv.type == "INT") {
-          if (vv.adress.Contains("IW")) {
-            makeAI(vv, "Default");
-          }
-          if (vv.adress.Contains("QW")) {
-            makeAO(vv, "Default");
-          }
-        } else if (vv.type == "BOOL") {
-          if (vv.adress.Contains("IX")){
-            makeDI(vv, "Default");
-          }
-          if (vv.adress.Contains("QX")){
-            makeDO(vv, "Default");
+        if (vv.name.Length > 1)
+        {
+          System.Console.WriteLine(vv);
+          if (vv.type == "INT") {
+            if (vv.adress.Contains("IW")) {
+              makeAI(vv, "Default");
+              System.Console.WriteLine($"AI: {vv}");
+            }
+            if (vv.adress.Contains("QW")) {
+              makeAO(vv, "Default");
+            }
+          } else if (vv.type == "BOOL") {
+            if (vv.adress.Contains("IX")){
+              makeDI(vv, "Default");
+            }
+            if (vv.adress.Contains("QX")){
+              makeDO(vv, "Default");
+            }
           }
         }
+
       }
     }
       public void makeAO(acVariable Data, string stemplate){

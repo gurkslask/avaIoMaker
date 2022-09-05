@@ -53,11 +53,13 @@ namespace AvaloniaMVVM.ViewModels
         }
         void runTheThing() {
             iom.makeGeneral(InString);
+            Console.WriteLine("Kört2");
             VarString = String.Join("", iom.var_list);
             IoString = String.Join("", iom.io_list);
             AccessString = String.Join("", iom.access_list);
             InvString = String.Join("", iom.inv_list);
         }
+        // void runTheThing() { VarString = "K?RT!!!"; }
         public ReactiveCommand<Unit, Unit> Run { get; }
     }
 }
